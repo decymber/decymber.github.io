@@ -7,8 +7,6 @@ header:
   overlay_image: /assets/images/mm-home-page-feature.jpg
 excerpt: >
   A group of security and automation professionals aiming to build and safeguard Blockchain infrastructure.<br />
-feature_certificate_title:
-  - title: "Certificate"
 feature_certificate:
   - image_path: /assets/images/aws.svg
     alt: "aws"
@@ -19,7 +17,6 @@ feature_certificate:
   - image_path: /assets/images/ccsp.svg
     alt: "ccsp"
 feature_services:
-  title: "Services"
   - image_path: /assets/images/audit.svg
     alt: "audit"
     title: "Infrastructure Security"
