@@ -27,7 +27,7 @@ gallery_services:
     alt: "audit"
     title: "Infrastructure Security"
     excerpt: "Blockchain Infrastructure Security and Audit."
-  - image_path: /assets/images/automation.svg
+  - image_path: /assets/images/automation68x68.svg
     alt: "automation"
     title: "NodeOps"
     excerpt: "Build Blockchain Infrastructure with devops and automation."
@@ -37,4 +37,4 @@ gallery_services:
 {% include feature_row id="feature_certificate_title" type="left" %}
 {% include gallery id="gallery_certificate" layout="fourth" %}
 {% include feature_row id="feature_services_title" type="left" %}
-{% include gallery_row id="gallery_services" layout="fourth" %}
+{% include gallery id="gallery_services" layout="fourth" %}
