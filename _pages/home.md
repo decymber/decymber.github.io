@@ -3,11 +3,12 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
+  overlay_color: "#20b2aa"
   overlay_image: /assets/images/mm-home-page-feature.jpg
 excerpt: >
   A group of security and automation professionals aiming to build and safeguard Blockchain infrastructure.<br />
 feature_certificate:
+  title: "Certification"
   - image_path: /assets/images/aws.svg
     alt: "aws"
   - image_path: /assets/images/gcp.svg
