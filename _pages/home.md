@@ -28,6 +28,5 @@ feature_services:
 ---
 {% include feature_row %}
 
-{% include feature_row id="feature_certificate_title" type="left" %}
-{% include feature_row id="feature_certificate" type="center" %}
-{% include feature_row id="feature_services" type="center" %}
+{% include feature_row id="feature_certificate" %}
+{% include feature_row id="feature_services" %}
