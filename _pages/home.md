@@ -11,24 +11,24 @@ feature_certificate_title:
   - image_path: /assets/images/certification.svg
     alt: "aws"
 feature_certificate:
-  - image_path: /assets/images/aws68x68.svg
+  - image_path: /assets/images/aws.png
     alt: "aws"
-  - image_path: /assets/images/gcp68x68.svg
+  - image_path: /assets/images/gcp.png
     alt: "gcp"
-  - image_path: /assets/images/azure68x68.svg
+  - image_path: /assets/images/azure.png
     alt: "azure"
-  - image_path: /assets/images/ccsp68x68.svg
+  - image_path: /assets/images/ccsp.png
     alt: "ccsp"
 feature_services_title:
   - image_path: /assets/images/services.svg
     alt: "aws"
 feature_services:
-  - image_path: /assets/images/audit68x68.svg
+  - image_path: /assets/images/audit.png
     alt: "audit"
     title: "Infrastructure Security"
     excerpt: "Blockchain Infrastructure Security and Audit."
-  - image_path: /assets/images/automation.svg
-    alt: "automation68x68"
+  - image_path: /assets/images/automation.png
+    alt: "automation"
     title: "NodeOps"
     excerpt: "Build Blockchain Infrastructure with devops and automation."
 ---
