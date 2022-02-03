@@ -7,27 +7,34 @@ header:
   overlay_image: /assets/images/mm-home-page-feature.jpg
 excerpt: >
   A group of security and automation professionals aiming to build and safeguard Blockchain infrastructure.<br />
-feature_certificate:
-  title: "Certification"
-  - image_path: /assets/images/aws.svg
+feature_certificate_title:
+  - image_path: /assets/images/certification.svg
     alt: "aws"
-  - image_path: /assets/images/gcp.svg
+feature_certificate:
+  - image_path: /assets/images/aws68x68.svg
+    alt: "aws"
+  - image_path: /assets/images/gcp68x68.svg
     alt: "gcp"
-  - image_path: /assets/images/azure.svg
+  - image_path: /assets/images/azure68x68.svg
     alt: "azure"
-  - image_path: /assets/images/ccsp.svg
+  - image_path: /assets/images/ccsp68x68.svg
     alt: "ccsp"
+feature_services_title:
+  - image_path: /assets/images/services.svg
+    alt: "aws"
 feature_services:
-  - image_path: /assets/images/audit.svg
+  - image_path: /assets/images/audit68x68.svg
     alt: "audit"
     title: "Infrastructure Security"
     excerpt: "Blockchain Infrastructure Security and Audit."
   - image_path: /assets/images/automation.svg
-    alt: "automation"
+    alt: "automation68x68"
     title: "NodeOps"
     excerpt: "Build Blockchain Infrastructure with devops and automation."
 ---
 {% include feature_row %}
 
+{% include feature_row id="feature_certificate_title" type="left" %}
 {% include feature_row id="feature_certificate" %}
+{% include feature_row id="feature_services_title" type="left" %}
 {% include feature_row id="feature_services" %}
