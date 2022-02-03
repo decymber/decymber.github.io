@@ -35,6 +35,6 @@ feature_services:
 {% include feature_row %}
 
 {% include feature_row id="feature_certificate_title" type="left" %}
-{% include gallery id="feature_certificate" %}
+{% include gallery id="gallery_certificate" %}
 {% include feature_row id="feature_services_title" type="left" %}
 {% include feature_row id="feature_services" %}
