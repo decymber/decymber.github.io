@@ -22,7 +22,7 @@ gallery_certificate:
 feature_services_title:
   - image_path: /assets/images/services.svg
     alt: "aws"
-gallery_services:
+feature_services:
   - image_path: /assets/images/audit68x68.svg
     alt: "audit"
     title: "Infrastructure Security"
@@ -37,4 +37,4 @@ gallery_services:
 {% include feature_row id="feature_certificate_title" type="left" %}
 {% include gallery id="gallery_certificate" layout="fourth" %}
 {% include feature_row id="feature_services_title" type="left" %}
-{% include gallery id="gallery_services" layout="fourth" %}
+{% include feature_row id="feature_services" layout="fourth" %}
