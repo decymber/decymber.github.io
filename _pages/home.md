@@ -10,24 +10,24 @@ excerpt: >
 feature_certificate_title:
   - image_path: /assets/images/certification.svg
     alt: "aws"
-feature_certificate:
-  - image_path: /assets/images/aws.png
+gallery_certificate:
+  - image_path: /assets/images/aws68x68.svg
     alt: "aws"
-  - image_path: /assets/images/gcp.png
+  - image_path: /assets/images/gcp68x68.svg
     alt: "gcp"
-  - image_path: /assets/images/azure.png
+  - image_path: /assets/images/azure68x68.svg
     alt: "azure"
-  - image_path: /assets/images/ccsp.png
+  - image_path: /assets/images/ccsp68x68.svg
     alt: "ccsp"
 feature_services_title:
   - image_path: /assets/images/services.svg
     alt: "aws"
 feature_services:
-  - image_path: /assets/images/audit.png
+  - image_path: /assets/images/audit68x68.svg
     alt: "audit"
     title: "Infrastructure Security"
     excerpt: "Blockchain Infrastructure Security and Audit."
-  - image_path: /assets/images/automation.png
+  - image_path: /assets/images/automation.svg
     alt: "automation"
     title: "NodeOps"
     excerpt: "Build Blockchain Infrastructure with devops and automation."
@@ -35,6 +35,6 @@ feature_services:
 {% include feature_row %}
 
 {% include feature_row id="feature_certificate_title" type="left" %}
-{% include feature_row id="feature_certificate" %}
+{% include gallery id="feature_certificate" %}
 {% include feature_row id="feature_services_title" type="left" %}
 {% include feature_row id="feature_services" %}
